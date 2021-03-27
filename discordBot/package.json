@@ -1,0 +1,22 @@
+{
+  "name": "telegramBot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc --project ./",
+    "start:dev": "ts-node-dev ./src --watch",
+    "start:prod": "node dist"
+  },
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.37",
+    "@types/ws": "^7.4.0",
+    "ts-node": "^9.1.1",
+    "ts-node-dev": "^1.1.6",
+    "typescript": "^4.2.3"
+  }
+}
